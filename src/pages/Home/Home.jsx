@@ -69,15 +69,17 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <div className="section-hi">
-        <img src={hi} className="pfp" alt="Profile" />
-        <h1>
-          {text}
-          <Cursor />
-        </h1>
+      <div class="section-hi section">
+        <div class="container">
+          <img src={hi} className="pfp" alt="Profile" />
+          <h1>
+            {text}
+            <Cursor />
+          </h1>
+        </div>
       </div>
 
-      <div id="section-about" className="section-about">
+      <div id="section-about" className="section-about section">
         <h2>About me!</h2>
         <div className="texts">
           <div className="text-1">
@@ -105,7 +107,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="section-projects" className="section-projects">
+      <div id="section-projects" className="section-projects section">
         <h2>My projects!</h2>
         <div className="slide">
           <Swiper
@@ -138,49 +140,51 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="section-skills" className="section-skills">
+      <div id="section-skills" className="section-skills section">
         <h1>Skills</h1>
-        <div className="skills">
-          <div>
-            <button>
-              <FaHtml5 className="skill" />
-            </button>
-            <p className="skills-p">HTML</p>
-          </div>
-          <div>
-            <button>
-              <FaCss3 className="skill" />
-            </button>
-            <p className="skills-p">CSS</p>
-          </div>
-          <div>
-            <button>
-              <IoLogoJavascript className="skilljs" />
-            </button>
-            <p className="skills-p">JavaScript</p>
-          </div>
-          <div>
-            <button>
-              <FaReact className="skill" />
-            </button>
-            <p className="skills-p">React</p>
-          </div>
-          <div>
-            <button>
-              <IoLogoFirebase className="skill" />
-            </button>
-            <p className="skills-p">Firebase</p>
-          </div>
-          <div>
-            <button>
-              <FaBootstrap className="skill" />
-            </button>
-            <p className="skills-p">Bootstrap</p>
+        <div className="skills-container">
+          <div className="skills">
+            <div>
+              <button>
+                <FaHtml5 className="skill" />
+              </button>
+              <p className="skills-p">HTML</p>
+            </div>
+            <div>
+              <button>
+                <FaCss3 className="skill" />
+              </button>
+              <p className="skills-p">CSS</p>
+            </div>
+            <div>
+              <button>
+                <IoLogoJavascript className="skilljs" />
+              </button>
+              <p className="skills-p">JavaScript</p>
+            </div>
+            <div>
+              <button>
+                <FaReact className="skill" />
+              </button>
+              <p className="skills-p">React</p>
+            </div>
+            <div>
+              <button>
+                <IoLogoFirebase className="skill" />
+              </button>
+              <p className="skills-p">Firebase</p>
+            </div>
+            <div>
+              <button>
+                <FaBootstrap className="skill" />
+              </button>
+              <p className="skills-p">Bootstrap</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div id="section-contact" className="section-contact">
+      <div id="section-contact" className="section-contact section">
         <div className="contact">
           <h2>Contact me!</h2>
           <div className="contact-form">
@@ -209,49 +213,45 @@ const Home = () => {
               <input type="submit" value="Send" className="send-button" />
             </form>
           </div>
-          <hr />
-          <footer>
-            <div className="footer-content">
-              <div className="contact-info">
-                <p>
-                  Email:{" "}
-                  <span className="footer-span">pdanilo8207@gmail.com</span>
-                </p>
-                <p>
-                  Phone: <span className="footer-span">+381 61 2988106</span>
-                </p>
-                <p>
-                  Address:{" "}
-                  <span className="footer-span">Novi Pazar, Serbia</span>
-                </p>
-              </div>
-              <div className="social-media-div">
-                <div className="ig">
-                  <a href="https://www.instagram.com/pdanilo10/">
-                    <button>
-                      <FaInstagram className="skill" />
-                    </button>
-                  </a>
-                </div>
-
-                <div>
-                  <a href="https://github.com/DanilloPetrovic">
-                    <button>
-                      <FaGithub className="skill" />
-                    </button>
-                  </a>
-                </div>
-
-                <div>
-                  <a href="https://www.linkedin.com/in/danilo-petrovic-26ba15312/">
-                    <button>
-                      <FaLinkedin className="skill" />
-                    </button>
-                  </a>
-                </div>
-              </div>
+        </div>
+        <hr />
+        <div className="footer">
+          <div className="contact-info">
+            <p>
+              Email: <span className="footer-span">pdanilo8207@gmail.com</span>
+            </p>
+            <p>
+              Phone: <span className="footer-span">+381 61 2988106</span>
+            </p>
+            <p>
+              Address: <span className="footer-span">Novi Pazar, Serbia</span>
+            </p>
+          </div>
+          <div className="social-media-div">
+            <div className="ig">
+              <a href="https://www.instagram.com/pdanilo10/">
+                <button>
+                  <FaInstagram className="skill" />
+                </button>
+              </a>
             </div>
-          </footer>
+
+            <div>
+              <a href="https://github.com/DanilloPetrovic">
+                <button>
+                  <FaGithub className="skill" />
+                </button>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.linkedin.com/in/danilo-petrovic-26ba15312/">
+                <button>
+                  <FaLinkedin className="skill" />
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
