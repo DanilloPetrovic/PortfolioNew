@@ -81,7 +81,7 @@ const Home = () => {
 
       <div id="section-about" className="section-about section">
         <h2>About me!</h2>
-        <div className="texts">
+        <div className="texts centery">
           <div className="text-1">
             <p>
               Hello! My name is Danilo Petrović, an aspiring web developer from
@@ -109,7 +109,7 @@ const Home = () => {
 
       <div id="section-projects" className="section-projects section">
         <h2>My projects!</h2>
-        <div className="slide">
+        <div className="slide ">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
@@ -118,7 +118,7 @@ const Home = () => {
             }}
             navigation={true}
             modules={[Pagination, Navigation]}
-            className="mySwiper"
+            className="mySwiper centery"
           >
             {projects.map((project) => (
               <SwiperSlide className="project-div">
@@ -143,7 +143,7 @@ const Home = () => {
       <div id="section-skills" className="section-skills section">
         <h1>Skills</h1>
         <div className="skills-container">
-          <div className="skills">
+          <div className="skills centery">
             <div>
               <button>
                 <FaHtml5 className="skill" />
@@ -187,7 +187,7 @@ const Home = () => {
       <div id="section-contact" className="section-contact section">
         <div className="contact">
           <h2>Contact me!</h2>
-          <div className="contact-form">
+          <div className="contact-form ">
             <form ref={form} onSubmit={sendEmail}>
               <div className="u-e">
                 <input
