@@ -10,7 +10,7 @@ h2 {
 .texts {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin: 50px 0px;
 }
 
 .section-about p {
@@ -50,7 +50,7 @@ h2 {
   }
 
   .texts div {
-    width: 100%;
+    width: 90%;
     padding: 10px;
   }
 

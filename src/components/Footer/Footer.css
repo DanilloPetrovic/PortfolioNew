@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #95b9a5;
+  border-top: 1px solid #95b9a5;
 }
 
 .contact-info p {
@@ -62,5 +62,10 @@
   .contact-info span {
     display: block;
     margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
   }
 }
