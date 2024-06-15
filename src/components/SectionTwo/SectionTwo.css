@@ -1,0 +1,76 @@
+.section-about {
+  padding: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: start;
+}
+
+.texts {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.section-about p {
+  font-family: spline, sans-serif;
+  font-size: 22px;
+  text-align: start;
+  color: rgb(50, 50, 50);
+}
+
+.texts div {
+  width: 50%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-about {
+    padding: 50px;
+  }
+
+  .texts div {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .section-about {
+    padding: 25px;
+  }
+
+  .section-about p {
+    font-size: 20px;
+  }
+
+  .texts {
+    display: block;
+    text-align: center;
+  }
+
+  .texts div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .text-2 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .section-about p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .section-about {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,110 @@
+.section-skills {
+  padding: 80px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skills div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills div div {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills div div p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.skills button {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: none;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.skills button:hover {
+  background-color: rgb(220, 220, 220);
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 1000px) {
+  .section-skills {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .section-skills {
+    padding: 25px;
+  }
+
+  .skills button {
+    width: 125px;
+    height: 125px;
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .skills {
+    margin-top: 25px;
+  }
+
+  .skills div div {
+    margin: 20px;
+  }
+
+  .skills button {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills div {
+    display: block;
+  }
+
+  .skills div div {
+    align-items: center;
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .section-skills {
+    padding: 15px;
+  }
+
+  .skills button {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+  }
+
+  .skills div div p {
+    font-size: 16px;
+  }
+}
