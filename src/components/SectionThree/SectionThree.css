@@ -3,7 +3,7 @@
 }
 
 .slide {
-  margin: 100px 0px;
+  margin: 50px 0px;
 }
 
 .project-div {
@@ -97,6 +97,10 @@
 @media screen and (max-width: 795px) {
   .section-projects {
     padding: 25px;
+  }
+
+  .slide {
+    margin: 100px 0px;
   }
 }
 

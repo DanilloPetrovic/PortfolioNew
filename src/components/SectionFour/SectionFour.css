@@ -3,7 +3,7 @@
 }
 
 .skills {
-  margin: 100px 0px;
+  margin: 50px 0px;
 }
 
 .skills div {
@@ -48,6 +48,10 @@
 }
 
 @media screen and (max-width: 795px) {
+  .skills {
+    margin: 100px 0px;
+  }
+
   .section-skills {
     padding: 25px;
   }
